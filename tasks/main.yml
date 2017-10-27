@@ -25,7 +25,3 @@
     owner: root
     group: root
     mode: 0644
-  notify: restart memcached
-
-- name: Ensure Memcached is started and set to run on startup.
-  service: name=memcached state=started enabled=yes
